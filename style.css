@@ -1,0 +1,67 @@
+body{
+    background-image: url("background.jpg");
+    background-size: 100%;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    padding: 5%;
+}
+
+header, nav{
+    text-align: center;
+}
+
+nav{
+    background: rgba(70, 224, 4, 1);
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+}
+
+.logo{
+    width: 250px;
+}
+
+header > h1{
+    color: rgb(70, 224, 4);
+}
+
+main{
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.scooter_name{
+    font-weight: bold;
+    font-size: x-large;
+    display: block;
+}
+
+.charge_level{
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+.half_charge{
+    border: 15px solid yellow;
+    width: 40%;
+}
+
+.full_charge{
+    border: 15px solid green;
+    width: 60%;
+}
+
+.low_charge{
+    border: 15px solid orangered;
+    width: 10%;
+}
